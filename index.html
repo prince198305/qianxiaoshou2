@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>牵小手 · 每一次带娃，就像一起通关的冒险</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      background-color: #fff8f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff8c42;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header p {
+      margin: 0.5rem 0 0 0;
+      font-size: 1rem;
+    }
+    main {
+      padding: 2rem 1rem;
+    }
+    h2 {
+      font-size: 1.4rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+    .category {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .card {
+      background-color: white;
+      border: 2px solid #ffe0cc;
+      border-radius: 12px;
+      padding: 1rem;
+      flex: 1 1 calc(50% - 1rem);
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+      border-color: #ffa366;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+    @media (max-width: 600px) {
+      .card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>牵小手</h1>
+    <p>每一次带娃，就像一起通关的冒险</p>
+  </header>
+  <main>
+    <h2>选择你的带娃场景</h2>
+    <div class="category">
+      <a href="plane.html" class="card">飞机带娃</a>
+      <a href="train.html" class="card">高铁带娃</a>
+      <a href="restaurant.html" class="card">饭店带娃</a>
+      <a href="amusement.html" class="card">游乐场带娃</a>
+      <a href="home.html" class="card">家中日常带娃</a>
+      <a href="car.html" class="card">打车带娃</a>
+    </div>
+  </main>
+  <footer>
+    牵小手 · 让成长变成冒险
+  </footer>
+</body>
+</html>
